@@ -35,16 +35,25 @@ section {
     background: linear-gradient(
         to bottom, 
         #FFFFFF00 0%, 
-        #08001Aff 70% 100%);
-    width: 70%;
+        #08001Aff 68% 100%);
+    width: 78vw;
     height: 54%;
     pointer-events: none;
 }
 
 li {
-    font-size: 3.5em;
-    margin-bottom: 2em;
+    font-size: 4em;
+    margin-bottom: 1.6em;
     height: 200px;
     text-decoration: none;
     list-style: none;
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: lightgrey;
+    text-decoration: underline blue;
 }
